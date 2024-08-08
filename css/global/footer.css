@@ -1,0 +1,19 @@
+.footer {
+  padding: 40px 0;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+}
+
+.footer__top {
+  padding-bottom: 40px;
+  border-bottom: 2px solid rgba(255, 255, 255, .5);
+}
+
+@media all and (min-width: 992px) {
+  .footer {
+    padding: 49px 0 45px;
+  }
+}

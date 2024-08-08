@@ -27,6 +27,11 @@ ul:not(:last-child) {
   margin-top: 1.5em;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 @media all and (min-width: 992px) {
   body {
     font-size: 18px;
