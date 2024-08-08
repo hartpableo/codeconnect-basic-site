@@ -13,6 +13,11 @@
   max-width: var(--content-width-medium);
 }
 
+.container > .container__inner {
+  margin: 0;
+  max-width: 764px;
+}
+
 /* Grid System */
 .row {
   --columns: 1;
@@ -55,4 +60,17 @@
   height: 100%;
   object-position: center;
   object-fit: cover;
+}
+
+/* Generic section title */
+.section-title {
+  font-size: 28px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+@media all and (min-width: 992px) {
+  .section-title {
+    font-size: 42px;
+  }
 }

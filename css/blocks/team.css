@@ -1,0 +1,39 @@
+.team {
+  padding: 50px 0;
+}
+
+.team__title {
+  margin-bottom: .7em;
+}
+
+.team__body {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.team__row {
+  --columns: 2;
+  margin-top: 35px;
+  row-gap: 35px;
+}
+
+@media all and (min-width: 768px) {
+  .team__row {
+    --columns: 3;
+    row-gap: 65px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .team__body {
+    font-size: 22px;
+  }
+
+  .team {
+    padding: 100px 0;
+  }
+
+  .team__row {
+    margin-top: 70px;
+  }
+}

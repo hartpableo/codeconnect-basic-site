@@ -5,7 +5,7 @@
 }
 
 .team-member__image-wrapper {
-  --dimensions: 100px;
+  --dimensions: 80px;
   width: var(--dimensions);
   height: var(--dimensions);
   position: relative;
@@ -24,14 +24,14 @@
 }
 
 .team-member__name {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.1;
   margin-bottom: 8px;
 }
 
 .team-member__position {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1;
 }
 
@@ -52,4 +52,18 @@
 .team-member__social-link:hover,
 .team-member__social-link:focus {
   opacity: .8;
+}
+
+@media all and (min-width: 768px) {
+  .team-member__image-wrapper {
+    --dimensions: 100px;
+  }
+
+  .team-member__name {
+    font-size: 22px;
+  }
+
+  .team-member__position {
+    font-size: 16px;
+  }
 }

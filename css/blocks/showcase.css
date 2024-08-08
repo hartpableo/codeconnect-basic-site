@@ -10,12 +10,6 @@
   margin-bottom: 30px;
 }
 
-.showcase__title {
-  font-size: 28px;
-  line-height: 1.1;
-  font-weight: 700;
-}
-
 .showcase .row {
   row-gap: 25px;
 }
@@ -33,10 +27,6 @@
 
   .showcase__header {
     margin-bottom: 52px;
-  }
-
-  .showcase__title {
-    font-size: 42px;
   }
 
   .showcase .row {
