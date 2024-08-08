@@ -1,6 +1,6 @@
 .team-member {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   height: 100%;
 }
 
@@ -12,6 +12,7 @@
   margin: 0 0 17px;
   border-radius: 50%;
   overflow: hidden;
+  order: -1;
 }
 
 .team-member__image {

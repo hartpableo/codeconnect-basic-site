@@ -1,19 +1,120 @@
 .footer {
   padding: 40px 0;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .footer ul {
   list-style: none;
-  margin: 0;
+}
+
+.footer__logo:hover,
+.footer__logo:focus {
+  opacity: .8;
 }
 
 .footer__top {
-  padding-bottom: 40px;
-  border-bottom: 2px solid rgba(255, 255, 255, .5);
+  text-align: start;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__top-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.footer__menu > ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 27px;
+  row-gap: 5px;
+  flex-wrap: wrap;
+}
+
+.footer__menu a:hover,
+.footer__menu a:focus {
+  text-decoration: underline;
+  text-underline-offset: .25em;
+}
+
+[aria-label="Footer legal menu"] {
+  /*flex-direction: row;*/
+  justify-content: flex-end;
+  margin: 25px 0;
+}
+
+[aria-label="Company social links"] {
+  /*margin-left: 30px;*/
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 26px;
+  row-gap: 5px;
+}
+
+.footer__bottom {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__copyright {
+  margin-top: 20px;
+}
+
+@media all and (min-width: 768px) {
+  .footer__top,
+  .footer__bottom,
+  .footer__top-right {
+    flex-direction: row;
+  }
+
+  .footer__top {
+    border-width: 2px;
+  }
+
+  .footer__top-right {
+    align-items: center;
+  }
+
+  [aria-label="Company social links"] {
+    margin-left: 30px;
+  }
+
+  [aria-label="Footer legal menu"] {
+    margin: 0;
+  }
+
+  .footer__menu > ul:not([aria-label="Footer legal menu"]) {
+    flex-direction: row;
+  }
+
+  .footer__copyright {
+    padding-left: 30px;
+    margin-top: 0;
+  }
 }
 
 @media all and (min-width: 992px) {
   .footer {
     padding: 49px 0 45px;
+  }
+
+  .footer__top {
+    padding-bottom: 40px;
+  }
+
+  .footer__bottom {
+    padding-top: 47px;
   }
 }
