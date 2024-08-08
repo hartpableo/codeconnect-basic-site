@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/global/root.css">
   <link rel="stylesheet" href="css/global/base.css">
   <link rel="stylesheet" href="css/global/utilities.css">
+  <link rel="stylesheet" href="css/global/header.css">
   <link rel="stylesheet" href="css/global/footer.css">
   <!-- Atoms -->
   <link rel="stylesheet" href="css/atoms/button.css">
@@ -24,6 +25,52 @@
   <link rel="stylesheet" href="css/blocks/team.css">
 </head>
 <body>
+
+<header class="header">
+  <div class="container">
+    <nav class="header__menu">
+      <ul aria-label="Main menu" class="header__menu-list">
+        <li class="header__menu-item is-active">
+          <a href="#" class="header__menu-link">
+            Home
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#" class="header__menu-link">
+            Features
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#" class="header__menu-link">
+            Pricing
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#" class="header__menu-link">
+            Blog
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#" class="header__menu-link">
+            <span class="sr-only">Link to Dribbble profile</span>
+            <img src="images/icons/fa-dribbble.svg" alt="dribbble logo icon" width="16" height="16" decoding="async" loading="lazy">
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#" class="header__menu-link">
+            <span class="sr-only">Link to Dribbble profile</span>
+            <img src="images/icons/fa-behance.svg" alt="behance logo icon" width="21" height="14" decoding="async" loading="lazy">
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <button type="button" class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+      <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#fff" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+      </svg>
+    </button>
+  </div>
+</header>
 
 <section class="hero has-bg-image">
   <div class="container container--small">
@@ -286,6 +333,9 @@
     </div>
   </div>
 </footer>
+
+<!-- Scripts -->
+<script src="js/hamburger-menu.js" defer></script>
 
 </body>
 </html>

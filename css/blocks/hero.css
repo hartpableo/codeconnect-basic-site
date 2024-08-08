@@ -1,7 +1,7 @@
 .hero {
   text-align: center;
   padding: 50px 0 0;
-  min-height: 100vh;
+  min-height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

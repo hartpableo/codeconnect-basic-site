@@ -46,13 +46,11 @@
 }
 
 [aria-label="Footer legal menu"] {
-  /*flex-direction: row;*/
   justify-content: flex-end;
   margin: 25px 0;
 }
 
 [aria-label="Company social links"] {
-  /*margin-left: 30px;*/
   display: flex;
   justify-content: flex-end;
   align-items: center;
