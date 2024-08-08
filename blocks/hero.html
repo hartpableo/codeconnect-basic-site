@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>Title</title>
+  <title>Hero Block</title>
   <!-- Global -->
   <link rel="stylesheet" href="../css/global/font-face.css">
   <link rel="stylesheet" href="../css/global/root.css">
@@ -24,9 +24,9 @@
     .container {
       border: 2px solid red;
     }
-
-    .hero__content {
-      border: 2px solid green;
+    
+    .container > * {
+      border: 2px solid greenyellow;
     }
   </style>
 
@@ -34,18 +34,16 @@
 <body>
 
 <section class="hero">
-  <div class="container">
-    <div class="hero__content">
-      <h1 class="hero__title">
-        <span class="hero__subtitle">Hello World</span>
-        Amazing Headline
-      </h1>
-      <div class="hero__body">
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, enim rutrum auctor nisi erat volutpat, eros justo Lorem ipsum dolor sit amet consectetur adipiscing elit, enim rutrum auctor nisi erat volutpat, eros justo</p>
-      </div>
-      <div class="hero__actions">
-        <a href="#" class="btn btn-primary">Create an Account</a>
-      </div>
+  <div class="container container--small">
+    <h1 class="hero__title">
+      <span class="hero__subtitle">Hello World</span>
+      Amazing Headline
+    </h1>
+    <div class="hero__body">
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, enim rutrum auctor nisi erat volutpat, eros justo Lorem ipsum dolor sit amet consectetur adipiscing elit, enim rutrum auctor nisi erat volutpat, eros justo</p>
+    </div>
+    <div class="hero__actions">
+      <a href="#" class="btn btn-primary">Create an Account</a>
     </div>
   </div>
   <!-- Used an image HTML element for the background image instead of CSS background-image for optimization and SEO purposes -->

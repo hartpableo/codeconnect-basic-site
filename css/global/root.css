@@ -9,5 +9,7 @@
   --ff-primary: "DMSans";
 
   /* Content width */
-  --base-content-width: calc(1169px + 32px); /* 1169px is the content width in the design PLUS 32px to account for the left and right padding (16px each) of the .container */
+  --content-width-base: calc(1169px + 32px); /* 1169px is the content width in the design PLUS 32px to account for the left and right padding (16px each) of the .container */
+  --content-width-small: calc(815px + 32px);
+  --content-width-medium: calc(970px + 32px);
 }
