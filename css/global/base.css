@@ -1,5 +1,7 @@
 *, *::before, *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -15,6 +17,14 @@ body {
 
 a {
   text-decoration: none;
+}
+
+p + p  {
+  margin-top: 1.5em;
+}
+
+ul:not(:last-child) {
+  margin-top: 1.5em;
 }
 
 @media all and (min-width: 992px) {

@@ -11,3 +11,26 @@
 .container.container--medium {
   max-width: var(--content-width-medium);
 }
+
+/*
+* I noticed I have been declaring this group of styles on both the hero block and cta block,
+* so I turned it into a utility instead so that I can declare it only once.
+*/
+.has-bg-image {
+  overflow: hidden;
+  background-color: var(--c-primary);
+  position: relative;
+  isolation: isolate;
+}
+
+.bg-image {
+  opacity: .5;
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}

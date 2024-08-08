@@ -13,14 +13,38 @@
   <!-- Atoms -->
   <link rel="stylesheet" href="../css/atoms/button.css">
   <!-- Blocks -->
-  <link rel="stylesheet" href="../css/blocks/hero.css">
+  <link rel="stylesheet" href="../css/blocks/cta.css">
+
+  <!-- Demo-only styles -->
+  <style>
+    section {
+      border: 2px solid yellow;
+    }
+
+    .container {
+      border: 2px solid red;
+    }
+
+    .container > * {
+      border: 2px solid greenyellow;
+    }
+  </style>
+
 </head>
 <body>
 
-<section class="cta">
-  <div class="container">
-
+<section class="cta has-bg-image">
+  <div class="container container--small">
+    <h2 class="cta__title">
+      <span class="cta__subtitle">Free Sample</span>
+      Another Captivating Headline Text
+    </h2>
+    <div class="cta__body">
+      <p>Placerat scelerisque hac curae suscipit etiam vel, montes habitant at sociosqu metus fusce ultrices, neque tristique facilisi elementum fermentum. Quam Placerat scelerisque hac curae suscipit etiam vel, montes habitant at sociosqu metus</p>
+    </div>
   </div>
+  <!-- Used an image HTML element for the background image instead of CSS background-image for optimization and SEO purposes -->
+  <img class="bg-image" src="../images/cta.jpg" alt="water close up with small waves" width="1400" height="540" decoding="async" loading="lazy">
 </section>
 
 </body>

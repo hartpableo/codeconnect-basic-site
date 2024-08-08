@@ -13,26 +13,26 @@
 }
 
 /* Primary button variant */
-.btn.btn-primary {
+.btn.btn--primary {
   padding: .94em 1.9em;
   background-color: var(--c-secondary);
   border-color: var(--c-secondary);
 }
 
-.btn.btn-primary:hover,
-.btn.btn-primary:focus {
+.btn.btn--primary:hover,
+.btn.btn--primary:focus {
   background-color: transparent;
   color: var(--c-white);
   border-color: currentColor;
 }
 
 /* Secondary button variant */
-.btn.btn-secondary {
+.btn.btn--secondary {
   background-color: transparent;
 }
 
-.btn.btn-secondary:hover,
-.btn.btn-secondary:focus {
+.btn.btn--secondary:hover,
+.btn.btn--secondary:focus {
   background-color: var(--c-white);
   color: var(--c-primary);
 }

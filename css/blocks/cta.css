@@ -1,0 +1,43 @@
+.cta {
+  text-align: center;
+  padding: 50px 0;
+  background-color: var(--c-primary-dark);
+}
+
+.cta__title {
+  font-size: 45px;
+  line-height: 1.21;
+  margin-bottom: .48em;
+  letter-spacing: -1px;
+}
+
+.cta__subtitle {
+  letter-spacing: 2px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.1;
+  margin-bottom: 1em;
+}
+
+.cta__body {
+  font-weight: 300;
+}
+
+.cta .bg-image {
+  opacity: .3;
+}
+
+@media all and (min-width: 992px) {
+  .cta {
+    padding: 107px 0 126px;
+  }
+
+  .cta__title {
+    font-size: 58px;
+  }
+
+  .cta__subtitle {
+    margin-bottom: 2em;
+  }
+}
