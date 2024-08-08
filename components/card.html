@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Card Component</title>
   <!-- Global -->
   <link rel="stylesheet" href="../css/global/font-face.css">
   <link rel="stylesheet" href="../css/global/root.css">
@@ -15,15 +15,22 @@
 </head>
 <body>
 
-<article class="card">
-  <div class="card__info">
-    <h3 class="card__title">Mozart Project</h3>
-    <p class="card__category">UI kit</p>
+<div class="container">
+  <div style="max-width: 470px;">
+    <!-- Component start -->
+    <article class="card">
+      <div class="card__info">
+        <h3 class="card__title">Mozart Project</h3>
+        <p class="card__category">UI kit</p>
+      </div>
+      <figure class="card__image-wrapper">
+        <img class="card__image" src="../images/card-image.jpg" alt="dummy card image" width="470" height="280" decoding="async" loading="lazy">
+      </figure>
+      <a class="card__link" href="#" aria-label="Link to work: Mozart Project"></a>
+    </article>
+    <!-- Component end -->
   </div>
-  <figure class="card__image-wrapper">
-    <img class="card__image" src="../images/card-image.jpg" alt="dummy card image" width="470" height="280" decoding="async" loading="lazy">
-  </figure>
-</article>
+</div>
 
 </body>
 </html>

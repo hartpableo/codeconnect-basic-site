@@ -15,7 +15,7 @@
 
 /* Grid System */
 .row {
-  --columns: 2;
+  --columns: 1;
   margin-inline: -16px;
   display: flex;
   flex-wrap: wrap;

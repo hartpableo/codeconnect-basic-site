@@ -6,7 +6,7 @@ This is a basic website from the Code Connect mentorship program by Marameo Desi
 
 ## Steps
 
-1. Check design: https://www.figma.com/design/0JNhHbo4OIqQuiCLSxdxjh/Code-Connect?node-id=1576-2853&t=Up6pp75jtHPrIc4T-0
+1. Check the [design](https://www.figma.com/design/0JNhHbo4OIqQuiCLSxdxjh/Code-Connect?node-id=1576-2853&t=Up6pp75jtHPrIc4T-0).
 2. Set up your project (files and repo)
 3. Get font resources and place in your project
 4. Prepare global CSS (root, base, font-face, utilities, etc.)

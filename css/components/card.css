@@ -2,6 +2,13 @@
   display: flex;
   flex-direction: column-reverse;
   text-align: center;
+  position: relative;
+}
+
+.card__link {
+  position: absolute;
+  z-index: 10;
+  inset: 0;
 }
 
 .card__image-wrapper {
@@ -9,6 +16,7 @@
   position: relative;
   padding-top: 60%;
   border-radius: 10px;
+  margin-bottom: 30px;
 }
 
 .card__image {
@@ -18,4 +26,28 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+  transition: all 350ms ease-in-out;
+}
+
+.card:hover .card__image {
+  transform: scale(1.1);
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.card__title {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.card__category {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  line-height: 1.1;
+  margin-bottom: 1em;
 }

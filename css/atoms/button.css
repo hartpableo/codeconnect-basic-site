@@ -4,6 +4,7 @@
 */
 .btn {
   display: inline-block;
+  transition: all 250ms ease-in-out;
   text-align: center;
   padding: .72em 1.33em; /* I use the `em` unit for the padding here so that it's relative to the font-size */
   border-radius: 100px;

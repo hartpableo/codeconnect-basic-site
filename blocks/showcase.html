@@ -12,35 +12,96 @@
   <link rel="stylesheet" href="../css/global/utilities.css">
   <!-- Atoms -->
   <link rel="stylesheet" href="../css/atoms/button.css">
+  <!-- Components -->
+  <link rel="stylesheet" href="../css/components/card.css">
   <!-- Blocks -->
   <link rel="stylesheet" href="../css/blocks/showcase.css">
 
   <!-- Demo-only styles -->
-<!--  <style>-->
-<!--    section {-->
-<!--      border: 2px solid yellow;-->
-<!--    }-->
+  <style>
+    section {
+      border: 2px solid yellow;
+    }
 
-<!--    .container {-->
-<!--      border: 2px solid red;-->
-<!--    }-->
+    .container {
+      border: 2px solid red;
+    }
 
-<!--    .container > * {-->
-<!--      border: 2px solid greenyellow;-->
-<!--    }-->
-<!--  </style>-->
+    .container > * {
+      border: 2px solid greenyellow;
+    }
+
+    .row {
+      border: 2px solid white;
+    }
+
+    .row > .col {
+      border: 2px solid #ae0cdc;
+    }
+
+    .row > .col > * {
+      border: 2px solid #0d0d0d;
+    }
+  </style>
 
 </head>
 <body>
 
 <section class="showcase">
-  <div class="container">
+  <div class="container container--medium">
     <div class="showcase__header">
       <h2 class="showcase__title">Last works</h2>
       <a href="#" class="btn btn--secondary">View all Works</a>
     </div>
     <div class="row">
-
+      <div class="col">
+        <article class="card">
+          <div class="card__info">
+            <h3 class="card__title">Mozart Project</h3>
+            <p class="card__category">UI kit</p>
+          </div>
+          <figure class="card__image-wrapper">
+            <img class="card__image" src="../images/card-image.jpg" alt="dummy card image" width="470" height="280" decoding="async" loading="lazy">
+          </figure>
+          <a class="card__link" href="#" aria-label="Link to work: Mozart Project"></a>
+        </article>
+      </div>
+      <div class="col">
+        <article class="card">
+          <div class="card__info">
+            <h3 class="card__title">Mozart Project</h3>
+            <p class="card__category">UI kit</p>
+          </div>
+          <figure class="card__image-wrapper">
+            <img class="card__image" src="../images/card-image.jpg" alt="dummy card image" width="470" height="280" decoding="async" loading="lazy">
+          </figure>
+          <a class="card__link" href="#" aria-label="Link to work: Mozart Project"></a>
+        </article>
+      </div>
+      <div class="col">
+        <article class="card">
+          <div class="card__info">
+            <h3 class="card__title">Mozart Project</h3>
+            <p class="card__category">UI kit</p>
+          </div>
+          <figure class="card__image-wrapper">
+            <img class="card__image" src="../images/card-image.jpg" alt="dummy card image" width="470" height="280" decoding="async" loading="lazy">
+          </figure>
+          <a class="card__link" href="#" aria-label="Link to work: Mozart Project"></a>
+        </article>
+      </div>
+      <div class="col">
+        <article class="card">
+          <div class="card__info">
+            <h3 class="card__title">Mozart Project</h3>
+            <p class="card__category">UI kit</p>
+          </div>
+          <figure class="card__image-wrapper">
+            <img class="card__image" src="../images/card-image.jpg" alt="dummy card image" width="470" height="280" decoding="async" loading="lazy">
+          </figure>
+          <a class="card__link" href="#" aria-label="Link to work: Mozart Project"></a>
+        </article>
+      </div>
     </div>
   </div>
 </section>

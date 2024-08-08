@@ -11,11 +11,14 @@
   <link rel="stylesheet" href="css/global/root.css">
   <link rel="stylesheet" href="css/global/base.css">
   <link rel="stylesheet" href="css/global/utilities.css">
-  <!-- Atom -->
+  <!-- Atoms -->
   <link rel="stylesheet" href="css/atoms/button.css">
-  <!-- Block -->
+  <!-- Components -->
+  <link rel="stylesheet" href="css/components/card.css">
+  <!-- Blocks -->
   <link rel="stylesheet" href="css/blocks/hero.css">
   <link rel="stylesheet" href="css/blocks/cta.css">
+  <link rel="stylesheet" href="css/blocks/showcase.css">
 </head>
 <body>
 
@@ -47,6 +50,65 @@
   </div>
   <!-- Used an image HTML element for the background image instead of CSS background-image for optimization and SEO purposes -->
   <img class="bg-image" src="../images/cta.jpg" alt="water close up with small waves" width="1400" height="540" decoding="async" loading="lazy">
+</section>
+
+<section class="showcase">
+  <div class="container container--medium">
+    <div class="showcase__header">
+      <h2 class="showcase__title">Last works</h2>
+      <a href="#" class="btn btn--secondary">View all Works</a>
+    </div>
+    <div class="row">
+      <div class="col">
+        <article class="card">
+          <div class="card__info">
+            <h3 class="card__title">Mozart Project</h3>
+            <p class="card__category">UI kit</p>
+          </div>
+          <figure class="card__image-wrapper">
+            <img class="card__image" src="../images/card-image.jpg" alt="dummy card image" width="470" height="280" decoding="async" loading="lazy">
+          </figure>
+          <a class="card__link" href="#" aria-label="Link to work: Mozart Project"></a>
+        </article>
+      </div>
+      <div class="col">
+        <article class="card">
+          <div class="card__info">
+            <h3 class="card__title">Mozart Project</h3>
+            <p class="card__category">UI kit</p>
+          </div>
+          <figure class="card__image-wrapper">
+            <img class="card__image" src="../images/card-image.jpg" alt="dummy card image" width="470" height="280" decoding="async" loading="lazy">
+          </figure>
+          <a class="card__link" href="#" aria-label="Link to work: Mozart Project"></a>
+        </article>
+      </div>
+      <div class="col">
+        <article class="card">
+          <div class="card__info">
+            <h3 class="card__title">Mozart Project</h3>
+            <p class="card__category">UI kit</p>
+          </div>
+          <figure class="card__image-wrapper">
+            <img class="card__image" src="../images/card-image.jpg" alt="dummy card image" width="470" height="280" decoding="async" loading="lazy">
+          </figure>
+          <a class="card__link" href="#" aria-label="Link to work: Mozart Project"></a>
+        </article>
+      </div>
+      <div class="col">
+        <article class="card">
+          <div class="card__info">
+            <h3 class="card__title">Mozart Project</h3>
+            <p class="card__category">UI kit</p>
+          </div>
+          <figure class="card__image-wrapper">
+            <img class="card__image" src="../images/card-image.jpg" alt="dummy card image" width="470" height="280" decoding="async" loading="lazy">
+          </figure>
+          <a class="card__link" href="#" aria-label="Link to work: Mozart Project"></a>
+        </article>
+      </div>
+    </div>
+  </div>
 </section>
 
 </body>

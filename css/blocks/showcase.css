@@ -1,0 +1,45 @@
+.showcase {
+  padding: 50px 0;
+}
+
+.showcase__header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.showcase__title {
+  font-size: 28px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.showcase .row {
+  row-gap: 25px;
+}
+
+@media all and (min-width: 768px) {
+  .showcase .row {
+    --columns: 2;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .showcase {
+    padding: 100px 0;
+  }
+
+  .showcase__header {
+    margin-bottom: 52px;
+  }
+
+  .showcase__title {
+    font-size: 42px;
+  }
+
+  .showcase .row {
+    row-gap: 74px;
+  }
+}
