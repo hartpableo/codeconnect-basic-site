@@ -1,0 +1,13 @@
+:root {
+  /* Colors */
+  --c-primary: #2F1893;
+  --c-secondary: #482BE7;
+  --c-white: #fff;
+  --c-black: #000;
+
+  /* Font */
+  --ff-primary: "DMSans";
+
+  /* Content width */
+  --base-content-width: calc(1169px + 32px); /* 1169px is the content width in the design PLUS 32px to account for the left and right padding (16px each) of the .container */
+}
