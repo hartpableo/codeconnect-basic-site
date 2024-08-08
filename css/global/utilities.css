@@ -1,3 +1,4 @@
+/* Container */
 .container {
   max-width: var(--content-width-base);
   padding-inline: 16px;
@@ -12,10 +13,31 @@
   max-width: var(--content-width-medium);
 }
 
-/*
-* I noticed I have been declaring this group of styles on both the hero block and cta block,
-* so I turned it into a utility instead so that I can declare it only once.
-*/
+/* Grid System */
+.row {
+  --columns: 2;
+  margin-inline: -16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+
+.row > .col {
+  padding-inline: 16px;
+  flex: 1 1 calc(100% / var(--columns));
+  max-width: calc(100% / var(--columns));
+}
+
+.row > .col > * {
+  height: 100%;
+}
+
+  /*
+  * I noticed I have been declaring this group of styles on both the hero block and cta block,
+  * so I turned it into a utility instead so that I can declare it only once.
+  */
 .has-bg-image {
   overflow: hidden;
   background-color: var(--c-primary);
