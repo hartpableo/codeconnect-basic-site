@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <ul>
         <li><span class="color" style="background-color: ${guideColors.section};"></span> <span style="display: inline-block;vertical-align:middle;">Sections/Blocks (Header and Footer included)</span></li>
         <li><span class="color" style="background-color: ${guideColors.container};"></span> <span style="display: inline-block; vertical-align: middle;">Containers</span></li>
-        <li><span class="color" style="background-color: ${guideColors.row};"></span> <span style="display: inline-block; vertical-align: middle;">Rows</span></li>
+        <li><span class="color" style="background-color: ${guideColors.row};"></span> <span style="display: inline-block; vertical-align: middle;">Rows - the flexbox wrapper for displaying "columns"</span></li>
         <li><span class="color" style="background-color: ${guideColors.cols};"></span> <span style="display: inline-block; vertical-align: middle;">Columns</span></li>
         <li><span class="color" style="background-color: ${guideColors.colsContent};"></span> <span style="display: inline-block; vertical-align: middle;">Column Content</span></li>
       </ul>
