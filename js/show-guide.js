@@ -29,19 +29,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const styleEl = document.createElement('style');
     styleEl.innerHTML = `
       section, header, footer {
-        border: 2px solid ${guideColors.section};
+        outline: 2px solid ${guideColors.section};
       }
       .container:not(.structure-guide-list) {
-        outline: 1px solid ${guideColors.container};
+        outline: 2px solid ${guideColors.container};
       }
       .row {
-        border: 2px solid ${guideColors.row};
+        outline: 2px solid ${guideColors.row};
       }
       .row > .col {
-        border: 2px solid ${guideColors.cols};
+        outline: 2px solid ${guideColors.cols};
       }
       .row > .col > * {
-        border: 2px solid ${guideColors.colsContent};
+        outline: 2px solid ${guideColors.colsContent};
       }
       .structure-guide-list {
         padding-top: 45px;
