@@ -1,7 +1,24 @@
 .show-guide {
   position: fixed;
   top: 50%;
-  transform: translateY(-50%);
-  right: 0;
+  transform: translateY(-50%) rotate(180deg);
+  right: -1px;
   z-index: 70;
+  padding: 1em .5em;
+  font-weight: 600;
+  border: none;
+  letter-spacing: .1em;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+  -webkit-box-shadow: -13px -3px 18px -9px rgba(91, 92, 107, 1);
+  -moz-box-shadow: -13px -3px 18px -9px rgba(91, 92, 107, 1);
+  box-shadow: -13px -3px 18px -9px rgba(91, 92, 107, 1);
+  writing-mode: vertical-lr;
+}
+
+.show-guide[data-active="1"] {
+  background-color: var(--c-primary);
+  color: var(--c-white);
+  outline: 1px solid var(--c-white);
 }
