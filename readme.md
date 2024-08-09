@@ -18,3 +18,4 @@ This is a basic website from the Code Connect mentorship program by Marameo Desi
 1. When working on a single block/component, make it responsive before proceeding to another thing.
 2. Consistency is key when structuring your website. Keep the pattern similar and use utilities when necessary.
 3. When using utitlties and you find yourself having to override it exclusively for each blocks, something is wrong here and consider reviewing your implementation. Utilities are supposed to make things convenient for you as you work through your project.
+4. Prioritize the easy things first to gain momentum.
