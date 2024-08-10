@@ -4,6 +4,8 @@
 
 This is a basic website from the Code Connect mentorship program by Marameo Design. The website is built in plain HTML and CSS.
 
+Are you an aspiring and self-learning web developer? Learn more about this mentorship program from [Marameo Design](https://marameodesign.com/codeconnect-mentorship-program/).
+
 ## Steps
 
 1. Check the [design](https://www.figma.com/design/0JNhHbo4OIqQuiCLSxdxjh/Code-Connect?node-id=1576-2853&t=Up6pp75jtHPrIc4T-0).
